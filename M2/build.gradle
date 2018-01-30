@@ -1,0 +1,14 @@
+defaultTasks 'jar'
+
+apply plugin: 'java'
+
+dependencies {
+        'compileFiles("lib/resources.jar")'
+}
+
+jar {
+        manifest {
+                attributes 'Implementation-Title': 'Gradle Start',
+                        'Implementation-Version': 1
+        }
+}
