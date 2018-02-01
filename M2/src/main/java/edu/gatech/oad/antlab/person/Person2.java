@@ -1,6 +1,6 @@
-import java.util.Random;
-
 package edu.gatech.oad.antlab.person;
+
+import java.util.Random;
 
 /**
  *  A simple class for person 2
@@ -44,7 +44,7 @@ public class Person2 {
       }
 
       for (int i = 0; i < arr.length; i++) {
-          result += arr[0];
+          result += arr[i];
       }
       return result;
   }
