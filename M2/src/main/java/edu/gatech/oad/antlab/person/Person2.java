@@ -37,9 +37,13 @@ public class Person2 {
       char[] arr = new char[max];
       String result = "";
 
-      for (int i = 0; i < input.length(); i++ ) {
+      for (int i = 0; i < input.length(); i++) {
           Random randNum = new Random();
           int numSpot = randNum.nextInt(max);
+          while (arr[numSpot] != '\0') {
+              randNum = new Random();
+              numSpot = randNum.nextInt(max);
+          }
           arr[numSpot] = input.charAt(i);
       }
 
