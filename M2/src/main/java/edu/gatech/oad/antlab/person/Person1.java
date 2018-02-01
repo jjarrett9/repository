@@ -34,7 +34,6 @@ public class Person1 {
 		for (int i = 0; i < 2; i++) {
 			result += input.charAt(i);
 		}
-		System.out.println(result);
 	    return result;
 	}
 	
