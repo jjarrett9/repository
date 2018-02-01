@@ -1,3 +1,5 @@
+import java.util.Random;
+
 package edu.gatech.oad.antlab.person;
 
 /**
@@ -46,7 +48,7 @@ public class Person2 {
       }
       return result;
   }
-  
+
 	/**
 	 * Return a string rep of this object
 	 * that varies with an input string
